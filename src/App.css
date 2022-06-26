@@ -1,4 +1,30 @@
 .App {
   text-align: center;
+  display: block;
+}
+
+.header {
+  margin: 40px;
+  border: 3px solid black;
+}
+.contact-image > img {
+  width: 140px;
+  border-radius: 999px;
+}
+
+.contact-card {
   display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  justify-content: center;
+  border: 3px solid black;
+}
+
+.contact-list {
+  margin: 40px;
+}
+
+.contact-image {
+  margin-right: 50px;
+  padding: 20px;
 }
